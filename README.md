@@ -24,30 +24,30 @@ cd PRS_net-master
 Download the dataset
 (how to make it yourself is revealed below)
 ```bash
-bash ./scripts/shrec/get_data.sh
+bash ./scripts/get_data.sh
 ```
 ### Second Step: let`s train the model 
 Run training
 ```bash
-bash ./scripts/shrec/train.sh
+bash ./scripts/train.sh
 ```
 
 ### Third Step: let`s test the model with your test object. 
 Run test and export the intermediate pooled meshes:
 ```bash
-bash ./scripts/shrec/test.sh
+bash ./scripts/test.sh
 ```
 ### Forth Step: if you wanna (optional)
 Visualize the result 
 ```bash
-bash ./scripts/shrec/view.sh
+bash ./scripts/view.sh
 ```
 
 An example of planar reflective symmetry detection of 3D object:
 
 <img src="/docs/imgs/result.png" width="450px"/> 
 
-Note, you can also get pre-trained weights using bash ```./scripts/shrec/get_pretrained.sh```. 
+Note, you can also get pre-trained weights using bash ```./scripts/get_pretrained.sh```. 
 
 # Citation
 If you find this code useful, please consider citing our paper
